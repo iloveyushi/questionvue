@@ -1,0 +1,15 @@
+
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }] // 解决 Vue Router 刷新 404
+}
+
+
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vue-cli",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }] // 解决 Vue Router 刷新 404
+}
